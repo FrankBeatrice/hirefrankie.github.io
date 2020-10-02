@@ -2,7 +2,7 @@
   <header class="vh-90 mauto max-width-extra-large ph4-l ph0-ns pv4">
     <div class="dtc">
       <div class="justify-center flex flex-row-l flex-column items-center">
-        <img id="avatar" src="images/avatar.jpg" class="pointer mw6-l mw5 pr4-l br-100" onmouseover="hover(this);"
+        <img id="profile" src="images/fb.webp" class="pointer mw6-l mw5 pr4-l br-100" onmouseover="hover(this);"
           onmouseout="unhover(this);">
         <div class="ph4-l ph3">
           <h2 class="f2-l f3 lh-title mt0">Hey,</h2>
@@ -41,27 +41,27 @@
 </section>
 
 <script>
-  var avatars = ['images/avatar.jpg', 'images/avatar-glitch.jpg']
-  var el = document.getElementById('avatar')
+  var profiles = ['images/fb.webp', 'images/fb_glitch.webp']
+  var el = document.getElementById('profile')
   var times = [3000, 150, 3000, 300, 1000, 800]
   var index = 0
 
   function hover(element) {
-    element.setAttribute('src', 'images/avatar-glitch.jpg');
+    element.setAttribute('src', 'images/fb_glitch.webp');
     element.classList.add("animate-glitch");
   }
   function unhover(element) {
-    element.setAttribute('src', 'images/avatar.jpg');
+    element.setAttribute('src', 'iimages/fb.webp');
     element.classList.remove("animate-glitch");
   }
 
 
   function glitchEffect() {
     var isGlitch = index % 2 === 0
-    var avatar = isGlitch ? 'images/avatar-glitch.jpg' : 'images/avatar.jpg'
+    var profile = isGlitch ? 'images/fb_glitch.webp' : 'images/fb.webp'
     var timing = times[index % times.length]
     setTimeout(function () {
-      el.setAttribute('src', avatar);
+      el.setAttribute('src', profile);
       el.classList[isGlitch ? 'add' : 'remove']('animate-glitch')
       index = index + 1
       glitchEffect()
