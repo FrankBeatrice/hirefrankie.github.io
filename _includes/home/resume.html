@@ -61,7 +61,7 @@
     var profile = isGlitch ? 'images/fb_glitch.webp' : 'images/fb.webp'
     var timing = times[index % times.length]
     setTimeout(function () {
-      el.setAttribute('src', profile);
+      el.setAttribute('src', profiles);
       el.classList[isGlitch ? 'add' : 'remove']('animate-glitch')
       index = index + 1
       glitchEffect()
