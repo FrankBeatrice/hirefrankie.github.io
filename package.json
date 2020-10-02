@@ -12,13 +12,10 @@
       "name": "Kiko Beats",
       "email": "JOSEFRANCISCO.VERDU@GMAIL.COM"
 
+  ]
 
-    }
-     {
-      "name": "Anand Dyavanapalli",
-      "email": "adyavanapalli@gmail.com"
+   }
 
-    }
   ],
   "devDependencies": {
     "@commitlint/cli": "latest",
