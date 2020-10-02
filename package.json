@@ -1,16 +1,23 @@
 {
-  "name": "kikobeats.com",
+  "name": "hirefrankie.com",
   "description": "Hire Page",
   "version": "1.5.17",
   "author": {
     "email": "frankiebeatriceiii@gmail.com",
     "name": "Frankie",
-    "url": "https://kikobeats.com"
+    "url": "https://hirefrankie.com"
   },
   "contributors": [
     {
+      "name": "Kiko Beats",
+      "email": "JOSEFRANCISCO.VERDU@GMAIL.COM"
+
+
+    }
+     {
       "name": "Anand Dyavanapalli",
       "email": "adyavanapalli@gmail.com"
+
     }
   ],
   "devDependencies": {
