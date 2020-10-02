@@ -1,23 +1,23 @@
-title: Kikobeats
-email: josefrancisco.verdu@gmail.com
+title: frankie
+email: frankiebeatriceiii@gmail.com
 description: A millennial doing stuff on internet that ships software every day and builds digital products.
-github: kikobeats
-author: kikobeats
+github: FrankBeatrice
+author: FrankBeatrice
 logo: /images/avatar-glitch.jpg
 
 social:
-  name: Kiko Beats
+  name: FrankBeatrice
   links:
-    - https://twitter.com/kikobeats
-    - https://github.io/kikobeats
-    - https://www.linkedin.com/in/kikobeats
+    - https://twitter.com/beatricefrankie
+    - https://github.com/frankbeatrice
+    - https://www.linkedin.com/in/frankbeatrice
 
 twitter:
-  username: kikobeats
+  username: beatricefrankie
 
 permalink: "/:title/"
-disqus_shortname: kikobeats
-google_analytics: UA-34372837-2
+disqus_shortname: 
+google_analytics: 
 
 exclude:
   - Gemfile
