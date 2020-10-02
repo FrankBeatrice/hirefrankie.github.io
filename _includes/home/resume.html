@@ -41,7 +41,7 @@
 </section>
 
 <script>
-  var profiles = ['images/fb.webp', 'images/fb_glitch.webp']
+  var profile = ['images/fb.webp', 'images/fb_glitch.webp']
   var el = document.getElementById('profile')
   var times = [3000, 150, 3000, 300, 1000, 800]
   var index = 0
@@ -61,7 +61,7 @@
     var profile = isGlitch ? 'images/fb_glitch.webp' : 'images/fb.webp'
     var timing = times[index % times.length]
     setTimeout(function () {
-      el.setAttribute('src', profiles);
+      el.setAttribute('src', profile);
       el.classList[isGlitch ? 'add' : 'remove']('animate-glitch')
       index = index + 1
       glitchEffect()
