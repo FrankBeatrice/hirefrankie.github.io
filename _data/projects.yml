@@ -10,10 +10,10 @@ featured:
     link: https://browserless.js.org
     image: /images/browserless.jpg
 
-  - name: MythBusters JS
-    description: A JavaScript optimization handbook.
-    link: https://mythbusters.js.org
-    image: /images/mythBusters.jpg
+  - name: Nintendo-Sega-Triva
+    description: Trive
+    link: https://young-earth-86063.herokuapp.com/
+    image: /images/ns.webp
 
   - name: svr
     description: HTTP development server done right.
